@@ -1,0 +1,100 @@
+package forloops;
+
+import java.util.Scanner;
+
+public class revision {
+
+    public static void main(String[] args) {
+//		
+	   Scanner sc = new Scanner(System.in);
+		 int n = sc.nextInt();
+//		 for(int j = 1; j <= n; j++) {
+//			 System.out.print("* ");
+//			 for(int i = 1; i <= n; i++) {
+//				 System.out.println();
+//			 }
+//		 }
+//			 
+//			 {
+//			   
+//		   }
+//          PATTERN 1 
+//		 for(int j = 1; j <= n; j++) {
+//			 
+//			 for(int i = 1; i <= n; i++) {
+//				 System.out.print("* ");
+//			 }
+//			 System.out.println();
+//			}
+//			
+//		}
+//		  PATTERN 2
+		 for(int i = 1; i <= n; i++) {
+			 for(int j = 1; j < i + 1; j++) {
+				 System.out.print("* ");
+			 }
+			 System.out.println();
+		 }
+//		   PATTERN 3
+//		 for(int i = 1; i <= n; i++) {
+//			
+//			  for(int j = 1; j <= i - 1; j++) {
+//				  System.out.print("  ");
+//			  }
+//				  for(int j = 1; j <= n - i + 1; j++) {
+//					  System.out.print("* ");
+//				  }
+//				  System.out.println();
+//			 }
+//			
+//		 }
+//             PATTERN 4
+//		 for(int i = 1; i <= n; i++) {
+//			 for(int j = 1; j <= n - i + 1; j++) {
+//				 System.out.print("* ");
+//			 }
+//			 System.out.println();
+//		 }
+//            PATTERN 4
+//	for(int i = 1; i <= n; i++) {
+//		for(int j = 1; j <= n - i; j++) {
+//			System.out.print(" ");
+//		}
+//		for(int j = 1; j <= i; j++) {
+//			System.out.print(" *");
+//		}
+//		System.out.println();
+//	}
+//      int rows = 2 * n - 1;
+//      for(int i = 1; i <= rows; i++) {
+//    	  
+//    	  for(int j = 1; j <= i; j++) 
+//    		  if(i <= n) 
+//    		  System.out.print("* ");
+//    		  
+//    		 
+//    	   else {
+//    		  for(int j = 1; j <= rows - i + 1; j++) {
+//    			  System.out.print("* ");
+//    		  }
+//    	  
+//    		  System.out.println();
+//    	  }
+//      }
+      
+    }
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+
+}
